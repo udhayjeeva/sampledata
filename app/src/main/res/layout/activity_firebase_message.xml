@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FirebaseMessage">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Allied Motors"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/submit"/>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:background="@drawable/circle_bg_cardview"
+    android:padding="0.60dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle_bg"
+        android:padding="5dp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="20dp"
+            android:id="@+id/llinner"
+            android:background="@drawable/circle_1"
+            android:layout_height="20dp"/>
+
+
+    </LinearLayout>
+</LinearLayout>
+  <!--  <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/webview"/>-->
+</LinearLayout>
